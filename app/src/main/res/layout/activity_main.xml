@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yangsiyoung.mystudy.MainActivity">
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/editStudentId"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Student Id"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:id="@+id/editPassword"
+        android:layout_below="@+id/editStudentId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:hint="Password"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/editPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+</RelativeLayout>
